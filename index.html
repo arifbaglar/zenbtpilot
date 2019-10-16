@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>ZENBTPİLOT</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
+
+</head>
+
+<body>
+
+    <!-- navbar section -->
+
+    <div class="navbarcover">
+        <nav class="navbar p-0  navbar-expand-lg navbar-dark bg-dark justify-content-center">
+            <div class="m-0 p-0 col-lg-8 ">
+                <a class="navbar-brand float-left ml-3" href="#">
+                    <img src="images/acme siyah.png" alt="" style="height: 2rem; width: auto;">
+                </a>
+                <button class="navbar-toggler float-right" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                LINK1
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#">LINK2 <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#">LINK3 <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item mr-3">
+                            <a class="nav-link" href="#">INFORMATION LINK <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#">USER LINK <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                ABOUT US
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+
+                        </li>
+                        <li class="nav-item dropdown active">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                SIGN IN
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+
+                        </li>
+
+                    </ul>
+                    <a class="navbar-brand pr-1 " href="#">
+                        <img src="images/cart-41-24.png" alt="">
+                    </a>
+                    <div class="cntr">
+                        <div class="cntr-innr">
+                            <label class="search" for="inpt_search">
+                                <input id="inpt_search" type="text" />
+                            </label>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Slider section -->
+    <div class="container col-8" style="background-color: white;">
+            <p style="margin-bottom:0rem ; margin-top: 1rem;"><b>Seperate 1</b></p>
+            <hr></hr>
+                  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="width:auto; margin-bottom: 15px;">
+                        <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                              </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="https://playerbros.com/wp-content/uploads/2019/07/Tactic-Force-Yerli-MMOFPS.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://playerbros.com/wp-content/uploads/2019/07/Tactic-Force-Yerli-MMOFPS.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://playerbros.com/wp-content/uploads/2019/07/Tactic-Force-Yerli-MMOFPS.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+    
+    <!-- Seperate 1 Section -->
+                      <div class="d-flex row">
+                            <div class="col-md-6 col-lg-3">
+                             <div class="card d-inline-flex" style=" width:auto; margin-bottom: 15px; margin-top: 15px; ">
+                                   <img src="https://playerbros.com/wp-content/uploads/2019/07/Tactic-Force-Yerli-MMOFPS.jpg" class="card-img-top" alt="...">
+                                   <div class="card-body">
+                                        <div class="kutu3 ">
+                                                <p><i class="fa fa-calendar" aria-hidden="true"></i>  Yakında</p>
+                                                
+                                             </div>
+                                     <p class="card-text">
+                                       Product Name: Leauge of Legend    
+                                     </p>
+                                     <div class=" kutu2 d-inline-block">
+                                            <p ><small><del>35.45<span class="simge-tl">&#8378;</span></del></small></p>
+                                            <p ><big>25.50<span class="simge-tl">&#8378;</span></big></p>
+                                         </div>
+                                     <div class="kutu ">
+                                        <p>-15%</p>
+                                     </div>
+                                     
+                                     
+                                     
+                                   </div>
+                                 </div>
+                               </div>
+                               <div class="col-md-6 col-lg-3">
+                                       <div class="card d-inline-flex" style="width:auto; margin-bottom: 15px; margin-top: 15px; ">
+                                             <img src="https://playerbros.com/wp-content/uploads/2019/07/Tactic-Force-Yerli-MMOFPS.jpg" class="card-img-top" alt="...">
+                                             <div class="card-body">
+                                               <p class="card-text">
+                                                     
+                                               </p>
+                         
+                                             </div>
+                                           </div>
+                                         </div>
+                                         <div class="col-md-6 col-lg-3">
+                                               <div class="card d-inline-flex" style="width:auto; margin-bottom: 15px; margin-top: 15px; ">
+                                                     <img src="https://playerbros.com/wp-content/uploads/2019/07/Tactic-Force-Yerli-MMOFPS.jpg" class="card-img-top" alt="...">
+                                                     <div class="card-body">
+                                                       <p class="card-text">
+                                                             
+                                                       </p>
+                                 
+                                                     </div>
+                                                   </div>
+                                                 </div>
+                                                 <div class="col-md-6 col-lg-3">
+                                                       <div class="card d-inline-flex" style="width:auto; margin-bottom: 15px; margin-top: 15px; ">
+                                                             <img src="https://playerbros.com/wp-content/uploads/2019/07/Tactic-Force-Yerli-MMOFPS.jpg" class="card-img-top" alt="...">
+                                                             <div class="card-body">
+                                                               <p class="card-text">
+                                                                     
+                                                               </p>
+                                         
+                                                             </div>
+                                                           </div>
+                                                         </div>
+                            </div>  
+                            <hr>   
+                            <div class="d-flex justify-content-center" style="justify-content: flex-start;">
+                            <img src="https://img-s2.onedio.com/id-5470fd85786fd2a677c0a567/rev-0/raw/s-0f386f54918ccc64a03d380a932883c0b63c1ec5.jpg" alt="" style="height: 2rem; width: auto; margin-right: 3px;">
+                            <p class="d-inline-flex" style="padding-top: 0.25rem; margin-bottom: 0rem;">WhatsApp Call: +90 (222) 04022000000</p>
+                            </div> 
+                            
+                            <hr> 
+    <!-- Seperate 2 Section --> 
+                            <p style="margin-bottom:0rem ; margin-top: 1rem;"><b>Seperate 2</b></p>
+            <hr style="margin-top: 0rem;"> 
+            <div class="d-flex row">
+                    <div class=" col-lg-6 d-inline-flex">
+                            <div class="card d-inline-flex" style="width:auto; margin-bottom: 15px; margin-top: 15px; ">
+                                    <img src="https://playerbros.com/wp-content/uploads/2019/07/Tactic-Force-Yerli-MMOFPS.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <p class="card-text">
+                                            
+                                      </p>
+                
+                                    </div>
+                                  </div>
+                    </div>
+                    
+                        <div class=" col-lg-6 d-inline-flex">
+                                <div class="d-flex row">
+                                        <div class="col-lg-6 col-md-6 d-inline-flex">
+                                            <div class="card d-inline-flex" style="width:auto; margin-bottom: 15px; margin-top: 15px; ">
+                                                <img src="https://playerbros.com/wp-content/uploads/2019/07/Tactic-Force-Yerli-MMOFPS.jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                <p class="card-text">
+                                            
+                                                    </p>
+                
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 d-inline-flex">
+                                                <div class="card d-inline-flex" style="width:auto; margin-bottom: 15px; margin-top: 15px; ">
+                                                    <img src="https://playerbros.com/wp-content/uploads/2019/07/Tactic-Force-Yerli-MMOFPS.jpg" class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                    <p class="card-text">
+                                                
+                                                        </p>
+                    
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 d-inline-flex">
+                                                    <div class="card d-inline-flex" style="width:auto; margin-bottom: 15px; margin-top: 15px; ">
+                                                        <img src="https://playerbros.com/wp-content/uploads/2019/07/Tactic-Force-Yerli-MMOFPS.jpg" class="card-img-top" alt="...">
+                                                        <div class="card-body">
+                                                        <p class="card-text">
+                                                    
+                                                            </p>
+                        
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 d-inline-flex">
+                                                        <div class="card d-inline-flex" style="width:auto; margin-bottom: 15px; margin-top: 15px; ">
+                                                            <img src="https://playerbros.com/wp-content/uploads/2019/07/Tactic-Force-Yerli-MMOFPS.jpg" class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                            <p class="card-text">
+                                                        
+                                                                </p>
+                            
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                </div>
+                        </div>
+    
+            </div>
+                    
+                                         
+                     
+                    
+    
+    
+    <!-- News Section --> 
+            <p style="margin-bottom:0rem ; margin-top: 1rem;"><b>News</b></p>
+            <hr style="margin-top: 0rem;">  
+             <div class="d-flex row">
+                 <div class="col-md-6 col-lg-3">
+                  <div class="card d-inline-flex" style="width:auto; margin-bottom: 15px; margin-top: 15px; ">
+                        <img src="https://playerbros.com/wp-content/uploads/2019/07/Tactic-Force-Yerli-MMOFPS.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">
+                                <div id="app0">
+                                        {{ info[0].id }}
+                                          {{ info[0].company.catchPhrase}}
+                                    </div>
+                          </p>
+    
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                            <div class="card d-inline-flex" style="width:auto; margin-bottom: 15px; margin-top: 15px; ">
+                                  <img src="https://playerbros.com/wp-content/uploads/2019/07/Tactic-Force-Yerli-MMOFPS.jpg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <p class="card-text">
+                                          <div id="app1">
+                                                  {{ info[1].id }}
+                                                    {{ info[1].company.catchPhrase}}
+                                              </div>
+                                    </p>
+              
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-6 col-lg-3">
+                                    <div class="card d-inline-flex" style="width:auto; margin-bottom: 15px; margin-top: 15px; ">
+                                          <img src="https://playerbros.com/wp-content/uploads/2019/07/Tactic-Force-Yerli-MMOFPS.jpg" class="card-img-top" alt="...">
+                                          <div class="card-body">
+                                            <p class="card-text">
+                                                  <div id="app2">
+                                                          {{ info[2].id }}
+                                                            {{ info[2].company.catchPhrase}}
+                                                      </div>
+                                            </p>
+                      
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-6 col-lg-3">
+                                            <div class="card d-inline-flex" style="width:auto; margin-bottom: 15px; margin-top: 15px; ">
+                                                  <img src="https://playerbros.com/wp-content/uploads/2019/07/Tactic-Force-Yerli-MMOFPS.jpg" class="card-img-top" alt="...">
+                                                  <div class="card-body">
+                                                    <p class="card-text">
+                                                          <div id="app3">
+                                                                  {{ info[3].id }}
+                                                                    {{ info[3].company.catchPhrase}}
+                                                              </div>
+                                                    </p>
+                              
+                                                  </div>
+                                                </div>
+                                              </div>
+                 </div>
+                 <div class="d-flex row">
+                        <div class="col-md-6 col-lg-3">
+                         <div class="card d-inline-flex" style="width:auto; margin-bottom: 15px; margin-top: 15px; ">
+                               <img src="https://playerbros.com/wp-content/uploads/2019/07/Tactic-Force-Yerli-MMOFPS.jpg" class="card-img-top" alt="...">
+                               <div class="card-body">
+                                 <p class="card-text">
+                                       <div id="app4">
+                                               {{ info[4].id }}
+                                                 {{ info[4].company.catchPhrase}}
+                                           </div>
+                                 </p>
+           
+                               </div>
+                             </div>
+                           </div>
+                           <div class="col-md-6 col-lg-3">
+                                   <div class="card d-inline-flex" style="width:auto; margin-bottom: 15px; margin-top: 15px; ">
+                                         <img src="https://playerbros.com/wp-content/uploads/2019/07/Tactic-Force-Yerli-MMOFPS.jpg" class="card-img-top" alt="...">
+                                         <div class="card-body">
+                                           <p class="card-text">
+                                                 <div id="app5">
+                                                         {{ info[5].id }}
+                                                           {{ info[5].company.catchPhrase}}
+                                                     </div>
+                                           </p>
+                     
+                                         </div>
+                                       </div>
+                                     </div>
+                                     <div class="col-md-6 col-lg-3">
+                                           <div class="card d-inline-flex"style="width:auto; margin-bottom: 15px; margin-top: 15px; ">
+                                                 <img src="https://playerbros.com/wp-content/uploads/2019/07/Tactic-Force-Yerli-MMOFPS.jpg" class="card-img-top" alt="...">
+                                                 <div class="card-body">
+                                                   <p class="card-text">
+                                                         <div id="app6">
+                                                                 {{ info[6].id }}
+                                                                   {{ info[6].company.catchPhrase}}
+                                                             </div>
+                                                   </p>
+                             
+                                                 </div>
+                                               </div>
+                                             </div>
+                                             <div class="col-md-6 col-lg-3">
+                                                   <div class="card d-inline-flex" style="width:auto; margin-bottom: 15px; margin-top: 15px; ">
+                                                         <img src="https://playerbros.com/wp-content/uploads/2019/07/Tactic-Force-Yerli-MMOFPS.jpg" class="card-img-top" alt="...">
+                                                         <div class="card-body">
+                                                           <p class="card-text">
+                                                                 <div id="app7">
+                                                                         {{ info[7].id }}
+                                                                           {{ info[7].company.catchPhrase}}
+                                                                     </div>
+                                                           </p>
+                                     
+                                                         </div>
+                                                       </div>
+                                                     </div>
+                        </div>
+                        <p style="margin-bottom:0rem ; margin-top: 1rem;"><b>Submission</b></p>
+            <hr style="margin-top: 0rem;">
+        </div>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="index.js"></script>
+        
+        
+      </body>
+      <!-- Footer -->
+      <div class="footer-copyright text-center mb-0" style="height: 50px;">
+            <img src="https://www.sccpre.cat/mypng/detail/2-21034_computer-icon-handshake-business-handshake-vector-icon-free.png" alt="">
+          </div>
+    <footer class="page-footer font-small ">
+    
+            <!-- Footer Links -->
+            <div class="container col-8 text-center text-md-left">
+          
+              <!-- Grid row -->
+              <div class="row">
+                <!-- Grid column -->
+                <div class=" col-md-2 ">
+          
+                        <img src="images/acme logo.png" alt="" style="height: 3rem;">
+                      </div>
+                      <!-- Grid column -->
+                
+                      <hr class="clearfix w-100 d-md-none">
+                <!-- Grid column -->
+                <div class="col-md-3 mx-auto">
+          
+                  <!-- Links -->
+                  <p class=" text-uppercase mb-0 mt-3">ABOUT US</p>
+          
+                  <ul class="list-unstyled ml-2">
+                    <li>
+                      <a href="#!">Lorem İpmsum Dolor</a>
+                    </li>
+                    <li>
+                      <a href="#!">Sit Amet Consectatuer</a>
+                    </li>
+                    <li>
+                      <a href="#!">Adipiscing Elit</a>
+                    </li>
+                    <li>
+                      <a href="#!">Sed diam nonummy nibh</a>
+                    </li>
+                    <li>
+                            <a href="#!">Euismod tincidunt</a>
+                          </li>
+                          <li>
+                            <a href="#!">Laouret dolore magna</a>
+                          </li>
+                          <li>
+                            <a href="#!">Aliquam</a>
+                          </li>
+                          <li>
+                            <a href="#!">Erat</a>
+                          </li>
+                  </ul>
+          
+                </div>
+                <!-- Grid column -->
+          
+                <hr class="clearfix w-100 d-md-none">
+          
+                <!-- Grid column -->
+                <div class="col-md-2 mx-auto">
+          
+                  <!-- Links -->
+                  <p class=" text-uppercase mb-0 mt-3 ">CUSTOMER</p>
+          
+                  <ul class="list-unstyled ml-2">
+                    <li>
+                      <a href="#!">Volupat</a>
+                    </li>
+                    <li>
+                      <a href="#!">Ut wisi enim</a>
+                    </li>
+                    <li>
+                      <a href="#!">Ad minim meniam</a>
+                    </li>
+                    <li>
+                      <a href="#!">Quis nostrud</a>
+                    </li>
+                  </ul>
+          
+                </div>
+                <!-- Grid column -->
+          
+                <hr class="clearfix w-100 d-md-none">
+          
+                <!-- Grid column -->
+                <div class="col-md-2 mx-auto">
+          
+                  <!-- Links -->
+                  <p class="text-uppercase mb-0 mt-3">extras</p>
+          
+                  <ul class="list-unstyled ml-2">
+                    <li>
+                      <a href="#!">Exerci tation</a>
+                    </li>
+                    <li>
+                      <a href="#!">Ullamcorper</a>
+                    </li>
+                    <li>
+                      <a href="#!">Suscipit lobortis</a>
+                    </li>
+                    
+                  </ul>
+          
+                </div>
+                <!-- Grid column -->
+          
+                <hr class="clearfix w-100 d-md-none">
+          
+                <!-- Grid column -->
+                <div class="col-md-2 mx-auto">
+          
+                  <!-- Links -->
+                  <p class=" text-uppercase mt-3 mb-0 ">wallet</p>
+          
+                  <ul class="list-unstyled ml-2">
+                    <li>
+                      <a href="#!">Duis autem</a>
+                    </li>
+                    <li>
+                      <a href="#!">Vel eum iriure</a>
+                    </li>
+                    <li>
+                      <a href="#!">Dolor in hendrerit</a>
+                    </li>
+                    <li>
+                      <a href="#!">In vulputate</a>
+                    </li>
+                  </ul>
+          
+                </div>
+                <!-- Grid column -->
+          
+              </div>
+              <!-- Grid row -->
+          
+            </div>
+            <!-- Footer Links -->
+          
+            <!-- Copyright -->
+            <div class="footer-copyright text-center">
+              <p class="mb-0">ACME // right now</p>
+            </div>
+            <!-- Copyright -->
+          
+          </footer>
+          
+    </html>
